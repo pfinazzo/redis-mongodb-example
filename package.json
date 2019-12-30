@@ -1,0 +1,23 @@
+{
+  "name": "redis-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "startServer.js",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.3",
+    "morgan": "^1.9.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon --inspect",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
